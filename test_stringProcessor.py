@@ -7,3 +7,6 @@ class TestStringProcessor(TestCase):
 
     def test_process_string_with_one_number(self):
         self.assertEqual(StringProcessor().process("1"), [1], "One Number Sent")
+
+    def test_process_string_with_two_numbers(self):
+        self.assertEqual(StringProcessor().process("1,2"), [2], "Two Numbers Sent")
