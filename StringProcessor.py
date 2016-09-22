@@ -1,3 +1,3 @@
 class StringProcessor:
     def process(self, string):
-        pass
+        return [0]
