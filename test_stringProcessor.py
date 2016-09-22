@@ -12,4 +12,4 @@ class TestStringProcessor(TestCase):
         self.assertEqual(StringProcessor().process("1,2"), [2, 1, 2], "Two Numbers Sent")
 
     def test_process_string_with_n_numbers(self):
-        self.assertEqual(StringProcessor().process("1,2,3,4,5,6"), [6, 1], "N Numbers Sent")
+        self.assertEqual(StringProcessor().process("1,2,3,4,5,6"), [6, 1, 6], "N Numbers Sent")
