@@ -4,4 +4,4 @@ class StringProcessor:
             return [0, 0, 0]
         else:
             array = string.split(",")
-            return [len(array), int(min(array)), int(string)]
+            return [len(array), int(min(array)), int(array[len(array)-1])]
